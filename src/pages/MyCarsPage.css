@@ -1,0 +1,53 @@
+.my-cars-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.my-cars-page .car-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.my-cars-page .car-item {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+    width: calc(33.333% - 20px);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.my-cars-page .car-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.my-cars-page .car-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.my-cars-page .car-info p {
+    margin: 5px 0;
+}
+
+.my-cars-page .btn {
+    background-color: #4F0077;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.my-cars-page .btn:hover {
+    background-color: #3e005b;
+}

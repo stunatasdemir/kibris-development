@@ -1,0 +1,73 @@
+.profile-page {
+    padding: 20px;
+}
+
+.profile-info {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f9f9f9; /* Arka plan rengi */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+}
+
+.profile-details label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #4A4A4A; /* Etiket rengi */
+}
+
+.profile-details input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff; /* Giriş alanı arka plan rengi */
+}
+
+.profile-details input:disabled {
+    background-color: #e9ecef; /* Pasif giriş alanı arka plan rengi */
+}
+
+.profile-actions {
+    text-align: right;
+}
+
+.profile-actions button {
+    margin-right: 10px;
+    padding: 10px 15px;
+    background-color: #4CAF50; /* Kaydet butonu arka plan rengi */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.profile-actions button:last-child {
+    background-color: #f44336; /* İptal butonu arka plan rengi */
+}
+
+.profile-actions button:hover {
+    background-color: #45a049; /* Kaydet butonu hover rengi */
+}
+
+.profile-actions button:last-child:hover {
+    background-color: #e53935; /* İptal butonu hover rengi */
+}
+
+/* Hoşgeldiniz mesajı */
+.profile-info h2 {
+    color: #6A1B9A; /* Hoşgeldiniz mesajı rengi */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Başlık */
+.profile-page h1 {
+    color: #6A1B9A; /* Profil ve Ayarlar başlık rengi */
+    text-align: center;
+    margin-bottom: 20px;
+}
